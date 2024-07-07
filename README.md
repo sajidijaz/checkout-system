@@ -33,16 +33,8 @@ This project is a simple PHP-based checkout system that applies various promotio
 
 4. **Install Composer dependencies inside the Docker container**:
 
-    - For Linux:
-
       ```sh
       docker exec -it wunder-mobility-app-1 bash
-      ```
-
-    - For Windows:
-
-      ```sh
-      winpty docker exec -it wunder-mobility-app-1 bash
       ```
 
    Once inside the container, run:
@@ -71,16 +63,8 @@ To run the tests:
 
 2. Enter the Docker container:
 
-    - For Linux:
-
       ```sh
       docker exec -it wunder-mobility-app-1 bash
-      ```
-
-    - For Windows:
-
-      ```sh
-      winpty docker exec -it wunder-mobility-app-1 bash
       ```
 
 3. Execute the PHPUnit tests:
