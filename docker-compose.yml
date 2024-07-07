@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    command: tail -f /dev/null  # Keeps the container running for manual commands
+    

@@ -1,0 +1,25 @@
+.git*
+.svn*
+.hg*
+
+# Build scripts
+build.sh
+Makefile
+
+# Compiled assets (if generated during build)
+*.js
+*.css
+
+# Cache directories
+node_modules/  # Adjust if using a different vendor directory
+vendor/
+
+# Logs
+*.log
+
+# IDE configuration
+.idea*
+.vscode*
+
+# Development environment files
+.env
